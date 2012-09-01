@@ -1,0 +1,1 @@
+define("test/1.0.0/b",[],function(e,t){var n=function(e){alert(e+"__defined in b!")};t.say=n}),define("test/1.0.0/c",["./b"],function(e,t){var n=function(){e("./b").say("from c")};t.say=n}),define("test/1.0.0/a",["./b","./c"],function(e,t,n){var r=function(){e("./b").say("from a"),e("./c").say()};t.init=r});
