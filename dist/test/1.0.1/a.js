@@ -1,0 +1,1 @@
+define("i_am_b",function(e,t){var n=function(e){alert(e+"__defined in b!")};t.say=n}),define("test/1.0.1/c",["./b"],function(e,t){var n=function(){e("./b").say("from c")};t.say=n}),define("test/1.0.1/a",["./b","./c"],function(e,t,n){var r=function(){e("./c").say()};t.init=r});

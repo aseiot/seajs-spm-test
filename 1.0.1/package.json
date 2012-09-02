@@ -1,0 +1,8 @@
+{
+  "name": "test",
+  "version": "1.0.1",
+  "description": "fail when we define the module id myself",
+  "output": {
+    "a.js": "."
+  }
+}
