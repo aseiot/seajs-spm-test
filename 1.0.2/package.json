@@ -1,0 +1,8 @@
+{
+  "name": "test",
+  "version": "1.0.2",
+  "description": "do not handle or support require.async yet",
+  "output": {
+    "a.js": "."
+  }
+}

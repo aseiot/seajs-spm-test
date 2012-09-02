@@ -1,0 +1,1 @@
+define("test/1.0.2/a",[],function(e,t,n){var r=function(){e.async("./c").say()};t.init=r});
